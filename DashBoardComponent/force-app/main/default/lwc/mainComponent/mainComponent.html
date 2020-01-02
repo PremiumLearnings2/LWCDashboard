@@ -1,0 +1,46 @@
+<template>
+    <template if:true={all}>
+        <lightning-card variant="Narrow"  title="Accounts" icon-name="standard:account">
+            <template for:each={RECORDS} for:item="record">
+                <c-cards record="record" key={record.Id}>
+                </c-cards>
+            </template>
+        </lightning-card>
+        <lightning-card variant="Narrow"  title="Contacts" icon-name="standard:account">
+            <template for:each={RECORDS} for:item="record">
+                <c-cards record="record" key={record.Id}>
+                </c-cards>
+            </template>
+        </lightning-card>
+        <lightning-card variant="Narrow"  title="Leads" icon-name="standard:account">
+            <template for:each={RECORDS} for:item="record">
+                <c-cards record="record" key={record.Id}>
+                </c-cards>
+            </template>
+        </lightning-card>
+    </template>
+    <template if:true={accounts}>
+        <lightning-card variant="Narrow"  title="Accounts" icon-name="standard:account">
+            <template for:each={RECORDS} for:item="record">
+                <c-cards record="record" key={record.Id}>
+                </c-cards>
+            </template>
+        </lightning-card>
+    </template>
+    <template if:true={contacts}>
+        <lightning-card variant="Narrow"  title="Accounts" icon-name="standard:account">
+            <template for:each={RECORDS} for:item="record">
+                <c-cards record="record" key={record.Id}>
+                </c-cards>
+            </template>
+        </lightning-card>
+    </template>
+    <template if:true={leads}>
+        <lightning-card variant="Narrow"  title="Accounts" icon-name="standard:account">
+            <template for:each={RECORDS} for:item="record">
+                <c-cards record="record" key={record.Id}>
+                </c-cards>
+            </template>
+        </lightning-card>
+    </template>
+</template>

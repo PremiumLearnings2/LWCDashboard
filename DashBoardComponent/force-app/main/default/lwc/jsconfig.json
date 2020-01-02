@@ -3,20 +3,14 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/sideNavComponent": [
-                "sideNavComponent/sideNavComponent.js"
-            ],
-            "c/MainComponent": [
-                "MainComponent/MainComponent.js"
+            "c/cards": [
+                "cards/cards.js"
             ],
             "c/mainComponent": [
                 "mainComponent/mainComponent.js"
             ],
-            "c/Cards": [
-                "Cards/Cards.js"
-            ],
-            "c/cards": [
-                "cards/cards.js"
+            "c/sideNavComponent": [
+                "sideNavComponent/sideNavComponent.js"
             ]
         }
     },
