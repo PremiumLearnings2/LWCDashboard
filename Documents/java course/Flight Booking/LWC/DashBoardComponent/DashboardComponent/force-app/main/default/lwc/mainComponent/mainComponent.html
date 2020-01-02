@@ -1,0 +1,8 @@
+<template>
+        <lightning-card variant="Narrow"  title="Accounts" icon-name="standard:account">
+            <template for:each={RECORDS} for:item="record">
+           
+                <p key={record.Id}> {record.name}</p>
+            </template>
+        </lightning-card>
+</template>
